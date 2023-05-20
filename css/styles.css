@@ -8,14 +8,14 @@
 
 }
 
-/* ========= COLORES ====== */
+/* ========= Colors ====== */
 :root {
     --first-color: #1721a7;
     --second-color: #0E2431;
 
 }
 
-/* ======= Fuente y tipografia ===== */
+/* ======= Font and typography ===== */
 :root {
     --body-font: 'Open Sans', sans-serif;
     --big-font-size: 2rem;
