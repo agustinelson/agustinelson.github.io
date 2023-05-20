@@ -10,6 +10,7 @@
 
 /* ========= Colors ====== */
 :root {
+
     --first-color: #1721a7;
     --second-color: #0E2431;
 
@@ -286,6 +287,11 @@ img {
 .about__img img {
     width: 200px;
     border-radius: .5rem;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
 }
 
 /* ===== SKILLS ===== */
