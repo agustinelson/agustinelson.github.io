@@ -64,7 +64,12 @@ sr.reveal('.skills__subtitle', {})
 sr.reveal('.skills__text', { delay: 200 })
 sr.reveal('.skills__data', { interval: 200 })
 sr.reveal('.skills__img', { delay: 400 })
-// ===== SCROLL WORK =====
-sr.reveal('.work__img', { interval: 200 })
+// ===== PROJECTS SWIPER =====
+let swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
 // ===== SCROLL CONTACT =====
 sr.reveal('.contact__input', { interval: 200 })
